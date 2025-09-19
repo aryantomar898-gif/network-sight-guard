@@ -47,6 +47,19 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        threat: {
+          critical: "hsl(var(--threat-critical))",
+          high: "hsl(var(--threat-high))",
+          medium: "hsl(var(--threat-medium))",
+          low: "hsl(var(--threat-low))",
+        },
+        safe: "hsl(var(--safe))",
+        network: {
+          tcp: "hsl(var(--network-tcp))",
+          udp: "hsl(var(--network-udp))",
+          http: "hsl(var(--network-http))",
+          https: "hsl(var(--network-https))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
