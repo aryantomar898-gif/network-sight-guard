@@ -9,8 +9,8 @@
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/aryantomar898-gif/network-sight-guard.git
+cd network-sight-guard
 ```
 
 2. Install dependencies (example uses Python and pip):
