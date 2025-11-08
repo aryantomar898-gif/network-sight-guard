@@ -35,21 +35,19 @@ python app.py           # or ./run.sh if provided
 
 > Add screenshots to the `screenshots/` folder before uploading. Name them exactly as below or update the paths in this README.
 
-* `screenshots/01-overview.png` — Homepage / Dashboard (traffic summary)
-* `screenshots/02-live-capture.png` — Live capture view
-* `screenshots/03-packet-details.png` — Packet details / hex view
-* `screenshots/04-graphs.png` — Traffic/Threat graphs
+* `C:\Users\MY LENOVO\Pictures\Screenshots\Screenshot (1).png` — Homepage / Dashboard (traffic summary)
+* `C:\Users\MY LENOVO\Pictures\Screenshots\Screenshot (2).png` — Live capture view
+* `C:\Users\MY LENOVO\Pictures\Screenshots\Screenshot 2025-10-27 214754.png` — Packet details / hex view
+* `C:\Users\MY LENOVO\Pictures\Screenshots\Screenshot 2025-10-27 214733.png` — Traffic/Threat graphs
 
 Placeholders in markdown:
 
 ```markdown
-![Overview](./screenshots/01-overview.png)
-![Live capture](./screenshots/02-live-capture.png)
-![Packet details](./screenshots/03-packet-details.png)
-![Graphs](./screenshots/04-graphs.png)
+![Overview](./C:\Users\MY LENOVO\Pictures\Screenshots\Screenshot (1).png)
+![Live capture](./C:\Users\MY LENOVO\Pictures\Screenshots\Screenshot (2).png)
+![Packet details](./C:\Users\MY LENOVO\Pictures\Screenshots\Screenshot 2025-10-27 214754.png)
+![Graphs](./C:\Users\MY LENOVO\Pictures\Screenshots\Screenshot 2025-10-27 214733.png)
 ```
-
-*(If you prefer to keep large images out of the repo, consider linking to GitHub issues or using lower-resolution thumbnails in `screenshots/`.)*
 
 ---
 
@@ -91,7 +89,7 @@ Placeholders in markdown:
 1. Select an interface from the dropdown.
 2. Choose capture filters (BPF syntax supported, e.g., `tcp and port 80`).
 3. Click **Start Capture**.
-4. Click **Stop** to end capture and save to disk.
+4. Click **Stop Monitoring** to end capture and save to disk.
 
 **CLI example** (if included):
 
